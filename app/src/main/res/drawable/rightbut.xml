@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true">
+    <layer-list>
+        <item android:state_pressed="true">
+            <shape android:shape="rectangle">
+                <corners
+                    android:bottomRightRadius="0dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="0dp"/>
+                <gradient
+                    android:angle="0"
+                    android:startColor="#1DE9B6"
+                    android:endColor="#1DE9B6"
+                    android:type="linear" />
+            </shape>
+        </item>
+        <item
+            android:bottom="8dp"
+            android:top="8dp"
+            android:left="2dp"
+            android:right="2dp">
+            <vector
+                android:width="16dp"
+                android:height="16dp"
+                android:viewportWidth="24"
+                android:viewportHeight="24"
+                android:tint="#ffffff"
+                android:alpha="0.9">
+                <path
+                    android:fillColor="#FF000000"
+                    android:pathData="M9,16.2L4.8,12l-1.4,1.4L9,19 21,7l-1.4,-1.4L9,16.2z"/>
+            </vector>
+        </item>
+    </layer-list>
+</item>
+<item>
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <corners
+                    android:bottomRightRadius="0dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="0dp"/>
+                <gradient
+                    android:angle="0"
+                    android:startColor="#0db189"
+                    android:endColor="#0db189"
+                    android:type="linear" />
+            </shape>
+        </item>
+        <item
+            android:bottom="8dp"
+            android:top="8dp"
+            android:left="2dp"
+            android:right="2dp">
+            <vector
+                android:width="16dp"
+                android:height="16dp"
+                android:viewportWidth="24"
+                android:viewportHeight="24"
+                android:tint="#ffffff"
+                android:alpha="0.9">
+                <path
+                    android:fillColor="#FF000000"
+                    android:pathData="M9,16.2L4.8,12l-1.4,1.4L9,19 21,7l-1.4,-1.4L9,16.2z"/>
+            </vector>
+        </item>
+    </layer-list>
+</item>
+</selector>

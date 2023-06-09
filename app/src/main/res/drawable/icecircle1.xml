@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:left="1dp" android:top="1dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#00000000"/>
+                    <stroke android:width="2dp" android:color="#c5dfe4"/>
+                    <corners android:radius="25dip"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:left="1dp" android:top="1dp" android:drawable="@drawable/ice_circle1"/>
+        </layer-list>
+    </item>
+</selector>

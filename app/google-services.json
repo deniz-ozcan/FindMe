@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582519079506",
+    "project_id": "matchcards-b36d5",
+    "storage_bucket": "matchcards-b36d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582519079506:android:80676470bf46bea020558b",
+        "android_client_info": {
+          "package_name": "com.denizozcan.matchme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582519079506-3h31fb3hq9sp5942b8g0p2l5kdkn7rr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVZaiI4v4qd7H-h3BD6vEvLozQU6ANwcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582519079506-3h31fb3hq9sp5942b8g0p2l5kdkn7rr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
